@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h2>WHAT IS FLASK?</h2>
+    <p>flask is a web framework.</p>
+    <!-- <p> my name is {{ name }}</p> -->
+    <h3>list of computer courses</h3>
+    <ul>
+        {% for course in courses %}
+        <li>{{ course }}</li>
+        {% endfor %}
+    </ul>
+    <img src="{% static 'img/django.png' %}" alt="something went wrong">
+</body>
+</html>
