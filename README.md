@@ -1,4 +1,4 @@
-<h1>Project Abstract:<h1><br>
+<h1>Project Abstract:</h1><br>
   
 This project is a simple Django-based web application designed to demonstrate the use of various views and template rendering techniques. It includes several routes that showcase different types of HTTP responses and interactions between views, templates, and context data.<br>
 
