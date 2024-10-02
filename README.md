@@ -1,8 +1,8 @@
-<h1>Project Abstract:</h1><br>
+<h1>Project Abstract:</h1>
   
 This project is a simple Django-based web application designed to demonstrate the use of various views and template rendering techniques. It includes several routes that showcase different types of HTTP responses and interactions between views, templates, and context data.<br>
 
-**Key features:**
+<h1>Key features</h1>
 
 **Basic Views:** Functions such as demo and check provide basic HTTP responses, rendering simple text in the browser.<br>
 **Template Rendering:** Views like use, wait, and won render HTML templates (form.html, table.html, and list.html) to the user.<br>
