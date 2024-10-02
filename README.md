@@ -4,8 +4,8 @@ This project is a simple Django-based web application designed to demonstrate th
 
 <h1>Key features</h1>
 
-<h2>Basic Views:</h2>Functions such as demo and check provide basic HTTP responses, rendering simple text in the browser.<br>
-<h2>Template Rendering:</h2> Views like use, wait, and won render HTML templates (form.html, table.html, and list.html) to the user.<br>
-**Contextual Rendering:** The first view demonstrates how to pass variables into templates, allowing dynamic content rendering. The index view passes a list of programming courses into the template, which is displayed to the user.
-**Data Display:** The total view sends a list of subject marks (as dictionaries) to the template, showcasing how Django templates can loop through data and present it in a formatted way.
+**Basic Views:**Functions such as demo and check provide basic HTTP responses, rendering simple text in the browser.<br>
+**1.Template Rendering:** Views like use, wait, and won render HTML templates (form.html, table.html, and list.html) to the user.<br>
+**2.Contextual Rendering:** The first view demonstrates how to pass variables into templates, allowing dynamic content rendering. The index view passes a list of programming courses into the template, which is displayed to the user.
+**3.Data Display:** The total view sends a list of subject marks (as dictionaries) to the template, showcasing how Django templates can loop through data and present it in a formatted way.<br>
 This project provides a fundamental understanding of handling HTTP responses, rendering HTML templates, and passing dynamic data in Django applications. It is aimed at beginners learning Django's core concepts.
